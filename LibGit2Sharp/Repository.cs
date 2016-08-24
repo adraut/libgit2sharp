@@ -1540,6 +1540,7 @@ namespace LibGit2Sharp
                 MergeTreeFlags = treeFlags,
                 RenameThreshold = (uint)options.RenameThreshold,
                 TargetLimit = (uint)options.TargetLimit,
+                FileFlags = (GitMergeFileFlag)options.FileFlags,
             };
 
             bool earlyStop;
